@@ -9,6 +9,7 @@ $r->withHeaders([
   'Content-Type' => 'application/json',
   'X-Requested-With' => 'XMLHttpRequest',
 ]);
+
 $r->execute();
 
 if ($r->getHttpCode() === 200) {
